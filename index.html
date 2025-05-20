@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financeiro</title>
+</head>
+
+<body>
+    <section id="container">
+        <div id="Formulario">
+            <h1>Calculo Financeiro</h1>
+
+            <form action="#" method="get">
+                <label for="rendimento">Informe seu rendimento liquido : </label>
+                <input type="text" id="rendimento" placeholder="000,00">
+                <button onclick="calcularrendimento()">Calcular</button>
+
+            </form>
+        </div>
+        <div id="resultadofinanceiro">
+            <h2>Separação Rendimentos</h2>
+            <div class="containerdespesas">
+                <div id="box_despesasfixa">
+                    <h3>Despesas Fixas</h3>
+                    <p id="resultadodespesasfixa">R$</p>
+                </div>
+                <div id="box_despesasvariavel">
+                    <h3>Despesas Variavel</h3>
+                    <p id="resultadodespesasvariavel">R$</p>
+                </div>
+                <div id="box_investimento">
+                    <h3>investimento</h3>
+                    <p id="resultadoinvestimento">R$</p>
+                </div>
+            </div>
+        </div>
+    </section>
+     <script src="js/script.js"></script>
+</body>
+
+</html>
